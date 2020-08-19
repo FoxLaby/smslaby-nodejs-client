@@ -2,13 +2,11 @@ const axios = require('axios');
 
 module.exports = (Config) => {
     return axios.post(Config.endPoint, {
-        lang: 'en',
-        number: '01×××××××××',
-        body: 'Test node.js ask',
-        mode: true
+        lang: Config.message.lang,
+        number: Config.message.number,
+        body: Config.message.body,
+        mode: Config.environment
     },{
-        headers: {'X-hash-fox': ''}
-    }).then(response => {
-        return response.data
+        headers: {'X-hash-fox': Config.hash_key}
     });
 }
