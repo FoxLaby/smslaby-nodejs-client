@@ -20,6 +20,14 @@ class SMSLaby {
         return this;
     }
 
+    sandbox(mode = false) {
+        if (mode) {
+            Config.environment = 'sandbox';
+        }
+
+        return this;
+    }
+
     message(body) {
         Config.message.body = body;
 
