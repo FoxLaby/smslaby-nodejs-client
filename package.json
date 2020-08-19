@@ -1,12 +1,16 @@
 {
-  "name": "smslaby",
+  "name": "smslaby-nodejs-client",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoxLaby/smslaby-nodejs-client.git"
+  },
+  "author": "Karim Mohamed",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2"
