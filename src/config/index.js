@@ -1,14 +1,7 @@
-class Config
-{
+class Config {
     constructor() {
-        this.settings = {
-            endPoint: 'https://foxlaby.com/api/smslaby/send'
-        };
-    }
-
-    reSet(set_settings)
-    {
-        Object.assign(this.settings, set_settings);
+        this.endPoint = 'https://foxlaby.com/api/smslaby/send';
+        this.environment = 'production';
     }
 }
 
