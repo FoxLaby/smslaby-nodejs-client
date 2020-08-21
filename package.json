@@ -1,7 +1,7 @@
 {
   "name": "smslaby",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "You can send sms through a our server using your sender id by encryption key",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
