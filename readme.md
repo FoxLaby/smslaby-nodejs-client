@@ -1,4 +1,7 @@
 # foxlaby/smslaby-nodejs-client
+
+![NPM Version](https://img.shields.io/npm/v/smslaby.svg)
+
 You can send sms through a our server using your sender id by encryption key.
 
 ## Install via npm
