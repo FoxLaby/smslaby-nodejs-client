@@ -1,10 +1,11 @@
 {
   "name": "smslaby",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "You can send sms through a our server using your sender id by encryption key",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "ncc build index.js --minify"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
     "axios": "^0.19.2"
   },
   "devDependencies": {
+    "@vercel/ncc": "^0.27.0",
     "chai": "^4.2.0",
     "mocha": "^8.1.1"
   }
